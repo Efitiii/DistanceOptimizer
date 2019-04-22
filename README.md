@@ -28,7 +28,7 @@ Provides the logic to compute the shortest distance between two nodes.
 * To compute distance this follows an iterative approach based on Breadth First Search algorithm.
 * While searching for destination node at each individual node it stores information of the current node and aggregated distance in a model CurrentDestination.
 * It then adds the CurrentDestination to a stack 'stackOfNodes' for the search to be proceeded later with the children nodes of the current node.
-* If a destination node is found it is distance is compared with already found distances. If the distance if found to be shorter it is stored in the outputPath.
+* If a destination node is found it is distance is compared with already found distances. If the distance is found to be shorter it is stored in the outputPath.
 * Once the search is complete the shortest distance is returned
      
 
