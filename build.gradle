@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'com.distanceOptimizer'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'org.junit.jupiter:junit-jupiter-engine:5.2.0'
+    compile 'org.springframework.boot:spring-boot-starter-test:2.1.2.RELEASE'
+    compile 'org.springframework.boot:spring-boot-starter-parent:2.1.2.RELEASE'
+    compile 'org.springframework.boot:spring-boot-starter-web:2.1.2.RELEASE'
+}

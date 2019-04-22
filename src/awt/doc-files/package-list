@@ -1,0 +1,6 @@
+
+com.distanceOptimizer
+com.distanceOptimizer.domain
+com.distanceOptimizer.exceptions
+com.distanceOptimizer.service
+com.distanceOptimizer.utility
